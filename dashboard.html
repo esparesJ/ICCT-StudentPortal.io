@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="sidebar" id="sidebar">
+        <div class="logo-area">
+            <img src="logo.jpg" class="logo" alt="Logo">
+            <h2>iSMS + Academic</h2>
+            <small>ICCT School Management System</small>
+        </div>
+
+        <div class="menu">
+    <a href="dashboard.html">Dashboard</a>
+    <a href="#">Section Offering</a>
+    <a href="#">Registration</a>
+    <a href="#">Schedule</a>
+    <a href="#">Profile</a>
+    <a href="#">Grades</a>
+    <a href="account.html">Account</a>
+    <a href="#">Calendar</a>
+</div>
+    </div>
+
+    <div class="main">
+    <div class="topbar">
+        <div class="topbar-upper">
+            <div class="topbar-left">
+                <span class="menu-toggle" onclick="toggleSidebar()">☰</span>
+                <span class="student-name">FUNELAS, MARY ANN</span>
+            </div>
+            <button onclick="logout()" class="top-logout-btn">Logout</button>
+        </div>
+        <div class="topbar-lower">
+            You are here : AIMS / Student Dashboard
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>Welcome to Student Dashboard 🎓</h1>
+        </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
